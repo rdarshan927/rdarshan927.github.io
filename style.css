@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    text-decoration: wavy;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  color: #fff;
+  font-size: 1.2rem;
+  background: #4d4d7f;
+}
