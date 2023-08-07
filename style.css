@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+  position: relative;
+}
+
 .first {
     text-decoration: wavy;
+    position: relative;
 }
 .first {
   display: flex;
