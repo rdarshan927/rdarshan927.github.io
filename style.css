@@ -164,6 +164,14 @@ body {
   font-size: larger;
 }
 
+#type-1-in {
+  color: rgb(255, 0, 0);
+}
+
+#type-1-in-2 {
+  color: red;
+}
+
 .right {
   text-align: center;
   max-width: 31%;
