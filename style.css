@@ -22,7 +22,7 @@ body {
   background: #4d4d7f;
 }
 
-.lookOver {
+.lookOverBlank {
   background-color: black;
   border-radius: 10px;
   padding-left: 10px;
@@ -37,9 +37,9 @@ body {
   cursor: pointer;
 }
 
-.lookOver:hover {
-  background-color: cadetblue;
-  color: #4d4d7f;
+.lookOverBlank:hover {
+  color: black;
+  background-color: whitesmoke;
 }
 
 .lookover {
