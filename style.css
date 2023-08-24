@@ -62,6 +62,7 @@ body {
   padding-bottom: 5px;
   font-size: 23px;
   font-weight: bold;
+  overflow: hidden;
 }
 
 .top-in-a {
@@ -95,7 +96,22 @@ body {
   color: #4d4d7f;
   font-weight: bold;
   text-align: center;
-  
+}
+
+.lmr-head {
+  font-weight: bolder;
+  font-size: xx-large;
+  background-color: #4d4d7f;
+  color: black;
+  border-color: #4d4d7f;
+  border-radius: 10px;
+}
+
+.lmr-hr {
+  color: #4d4d7f;
+  width: 99.9%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .left {
@@ -105,8 +121,30 @@ body {
   border-radius: 10px;
   max-height: 100%;
   margin-left: 2.5%;
-  padding-left: 1%;
-  padding-top: 1%;
+  padding-left: 1.5px;
+  padding-top: 1px;
+  padding-right: 1.5px;
+  overflow: scroll;
+}
+
+.left-in {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: black;
+  border-radius: 10px;
+  margin: 1%;
+  font-size: large;
+}
+
+.left-in-a {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.left-in:hover {
+  background-color: #4d4d7f;
 }
 
 .middle {
@@ -115,18 +153,28 @@ body {
   background-color: black;
   border-radius: 10px;
   margin-left: 1%;
-  padding-left: 1%;
-  padding-top: 2%;
+  padding-left: 1px;
+  padding-top: 1px;
+  padding-right: 1px;
+}
+
+.middle-marquee {
+  font-weight: bolder;
+  margin-top: 1%;
+  font-size: larger;
 }
 
 .right {
+  text-align: center;
   max-width: 31%;
   min-width: 31%;
   background-color: black;
   border-radius: 10px;
   margin-left: 3%;
-  padding-left: 1%;
-  padding-top: 20%;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  padding-right: 1px;
 }
 
 .linux {
@@ -136,4 +184,30 @@ body {
 .linux:hover {
   color: rgba(0, 0, 0, 0.5);
   cursor: none;
+}
+
+.right-btn {
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 1%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: cadetblue;
+  margin-left: 1%;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+  border-color: #4d4d7f;
+}
+
+.right-btn:hover {
+  background-color: #4d4d7f;
+  color: black;
+}
+
+.right-div-1 {
+  text-align: center;
 }
