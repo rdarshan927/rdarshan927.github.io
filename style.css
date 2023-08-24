@@ -21,3 +21,96 @@ body {
   font-size: 1.2rem;
   background: #4d4d7f;
 }
+
+.lookOver {
+  background-color: black;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: cadetblue;
+  margin-left: 1%;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.lookOver:hover {
+  background-color: cadetblue;
+  color: #4d4d7f;
+}
+
+.lookover {
+  background-color: #4d4d7f;
+}
+
+.top {
+  background-color: black;
+  border-radius: 12px;
+  color: cadetblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  max-width: 95%;
+  min-width: 95%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 23px;
+}
+
+.top-in-a {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.top-in-1 {
+  margin-left: 30%;
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.top-in {
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.top-in:hover {
+  background-color: #4d4d7f;
+}
+
+.lmr {
+  display: flex;
+  color: #4d4d7f;
+  
+}
+
+.left {
+  max-width: 10%;
+  min-width: 10%;
+  background-color: black;
+  max-height: 100%;
+  margin-left: 1%;
+}
+
+.middle {
+  max-width: 50%;
+  min-width: 50%;
+  background-color: black;
+  margin-left: 4%;
+}
+
+.right {
+  max-width: 20%;
+  min-width: 20%;
+  background-color: black;
+  margin-left: 4%;
+}
