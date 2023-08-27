@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --background: #191919;
+    --text: #fff;
+    --button-color: purple;
+    --padding: 10px;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 50px;
+
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item1 h1 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    order: -1;
+    padding: var(--padding);
+    border: 2px var(--button-color) solid;
+    border-radius: 0.5em;
+    margin: 30px;
+    color: var(--text);
+    text-align: center;
+}
+
+.lookOverButton {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #191919;
+    color: var(--text);
+    padding: var(--padding);
+    font-size: 20px;
+    border-radius: 0.5rem;
+    border: 2px var(--button-color) solid;
+    border-radius: 1.2em;
+}
+
+.lookOverButton a {
+    color: white;
+    text-decoration: none;
+}
+
+.lookOverButton a:visited {
+    color: aqua;
+}
+
+.lookOverButton:hover {
+    background-color: black;
+    box-shadow: 2px 2px 2px var(--button-color);
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.item2 h2 {
+    text-decoration: underline;
+    color: lightgray;
+}
+
+.item2 p {
+    color: var(--text);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.footer a,
+.copy {
+    color: lightgray;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
