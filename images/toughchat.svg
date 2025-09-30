@@ -1,0 +1,19 @@
+<!-- filepath: /home/rdarshan927/Dropbox/rdarshan927.github.io/public/images/toughchat.svg -->
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="24" fill="url(#grad)" />
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+    font-family="Inter, Arial, sans-serif"
+    font-size="24"
+    font-weight="bold"
+    fill="#fff"
+    letter-spacing="2"
+    >
+    TOUGH CHAT
+  </text>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+</svg>
